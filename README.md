@@ -1,40 +1,34 @@
-# Mesto
+Mesto
 
 Сервис для публикации фотографий мест: можно редактировать профиль и аватар, добавлять и удалять карточки, ставить лайки и смотреть статистику карточек (клик по логотипу). Данные хранятся на сервере Практикума.
 
-**Опубликованный проект:** https://nikitoshsykes.github.io/mesto-production/
+Опубликованный проект: https://nikitoshsykes.github.io/mesto-production/
 
-## Технологии
+Технологии
 
 - HTML, CSS (БЭМ), JavaScript (ES-модули)
 - Валидация форм на HTML5-атрибутах и `validity`
 - Работа с REST API через `fetch`
 - Сборка — [Vite](https://vitejs.dev/), публикация — GitHub Pages
 
-## Команды
+Команды
 
 Установка зависимостей:
 
-```bash
 npm install
-```
 
 Запуск локального сервера разработки (страница откроется в браузере автоматически):
 
-```bash
 npm run dev
-```
 
 Сборка проекта в папку `dist`:
 
-```bash
 npm run build
-```
+
 
 Публикация собранного проекта на GitHub Pages:
 
-```bash
 npm run deploy
-```
+
 
 Также проект публикуется автоматически при каждом `push` в ветку `main` — через GitHub Actions (`.github/workflows/deploy.yml`).
